@@ -41,6 +41,9 @@ if uploaded_file is not None:
             files={"file": uploaded_file}
         )
 
+        st.write("Status Code:", response.status_code)
+        st.write("Response:", response.text)
+
         result = response.json()
 
         st.success(
