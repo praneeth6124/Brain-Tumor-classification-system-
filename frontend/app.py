@@ -37,7 +37,7 @@ if uploaded_file is not None:
         }
 
         response = requests.post(
-            "http://127.0.0.1:8000/predict",
+            "https://brain-tumor-classification-system-1.onrender.com/predict",
             files={"file": uploaded_file}
         )
 
