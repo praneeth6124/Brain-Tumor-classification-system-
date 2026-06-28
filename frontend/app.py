@@ -37,10 +37,18 @@ if uploaded_file is not None:
         }
 
         response = requests.post(
-            "https://brain-tumor-classification-system-1.onrender.com/predict",
-            files={"file": uploaded_file}
+    "https://brain-tumor-classification-system-1.onrender.com/predict",
+    files={
+        "file": (
+            uploaded_file.name,
+            uploaded_file.getvalue(),
+            uploaded_file.type
         )
-
+    },
+    timeout=60
+)
+        
+        
         st.write("Status Code:", response.status_code)
         st.write("Response:", response.text)
 
