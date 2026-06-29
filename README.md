@@ -75,8 +75,9 @@ The application features a **FastAPI backend**, an interactive **Streamlit front
 ![Home Page](application%20demo/homepage.png)
 
 
-![Prediction Result](application%20demo/prediction.png)
 
+
+![Prediction Result](application%20demo/prediction.png)
 
 
 
