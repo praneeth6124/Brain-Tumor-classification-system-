@@ -1,4 +1,4 @@
-# 🧠Brain-Tumor-classification-system
+# Brain-Tumor-classification-system
 An end-to-end Deep Learning application for **multi-class Brain Tumor Classification** from MRI images using **EfficientNet-B0**. The project includes a trained model, FastAPI backend, Streamlit frontend, Dockerized deployment, and confidence-based predictions.
 
 ## Overview
@@ -82,7 +82,7 @@ The application features a **FastAPI backend**, an interactive **Streamlit front
 
 
 
-## 🚀 Future Enhancement
+## Future Enhancement
 
 The next phase of this project is to integrate a **U-Net-based Brain Tumor Segmentation** model for precise tumor localization.
 
