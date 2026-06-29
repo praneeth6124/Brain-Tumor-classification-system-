@@ -47,10 +47,6 @@ if uploaded_file is not None:
     },
     timeout=60
 )
-        
-        
-        st.write("Status Code:", response.status_code)
-        st.write("Response:", response.text)
 
         result = response.json()
 
